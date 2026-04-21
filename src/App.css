@@ -147,3 +147,38 @@ button:active {
   padding: 0;
   color: #888888;
 }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  button {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+  .start-screen,
+  .quiz-screen,
+  .result-screen {
+    padding: 20px;
+  }
+  .result-screen h1 {
+    font-size: 1.6rem;
+  }
+  .result-screen h2 {
+    font-size: 1.8rem;
+  }
+  .result-screen p {
+    font-size: 1rem;
+    padding: 15px;
+  }
+}
